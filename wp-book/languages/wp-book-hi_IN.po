@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wp_book\n"
-"POT-Creation-Date: 2019-09-19 12:01+0530\n"
-"PO-Revision-Date: 2019-09-19 12:04+0530\n"
+"Project-Id-Version: wp-book\n"
+"POT-Creation-Date: 2019-10-24 12:05+0530\n"
+"PO-Revision-Date: 2019-10-24 12:22+0530\n"
 "Last-Translator: \n"
-"Language-Team: wp_book_team\n"
+"Language-Team: pk.patelkeval2110@gmail.com\n"
 "Language: hi_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,180 +15,180 @@ msgstr ""
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: includes/wp_book_admin_setting.php:7
+#: includes/wp_book_admin_setting.php:20
 msgid " "
-msgstr " "
+msgstr ""
 
-#: includes/wp_book_admin_setting.php:13
+#: includes/wp_book_admin_setting.php:26
 msgid "Number of books displayed per page"
 msgstr "प्रति पृष्ठ प्रदर्शित पुस्तकों की संख्या"
 
-#: includes/wp_book_admin_setting.php:20
+#: includes/wp_book_admin_setting.php:33
 msgid "Currency"
 msgstr "मुद्रा"
 
-#: includes/wp_book_admin_setting.php:60
+#: includes/wp_book_admin_setting.php:107
 msgid "Settings"
 msgstr "सेटिंग्स"
 
-#: includes/wp_book_admin_setting.php:61
+#: includes/wp_book_admin_setting.php:108
 msgid "Book Settings"
 msgstr "पुस्तक सेटिंग्स"
 
-#: includes/wp_book_admin_setting.php:77
+#: includes/wp_book_admin_setting.php:132
 msgid "Settings Saved"
 msgstr "सेटिंग्स को सहेजा गया."
 
-#: includes/wp_book_admin_setting.php:89
+#: includes/wp_book_admin_setting.php:145
 msgid "Save Settings"
 msgstr "बदलाव सहेजें"
 
-#: includes/wp_book_category.php:6 includes/wp_book_category.php:7
-#: includes/wp_book_category.php:16
+#: includes/wp_book_category.php:19 includes/wp_book_category.php:20
+#: includes/wp_book_category.php:29
 msgid "Book Category"
 msgstr "पुस्तक श्रेणी"
 
-#: includes/wp_book_category.php:8
+#: includes/wp_book_category.php:21
 msgid "Search Book Categories"
 msgstr "खोज बुक श्रेणियाँ"
 
-#: includes/wp_book_category.php:9
+#: includes/wp_book_category.php:22
 msgid "All Book Categories"
 msgstr "सभी पुस्तक श्रेणियाँ"
 
-#: includes/wp_book_category.php:10
+#: includes/wp_book_category.php:23
 msgid "Parent Book Category"
 msgstr "पैरेंट बुक श्रेणी"
 
-#: includes/wp_book_category.php:11
+#: includes/wp_book_category.php:24
 msgid "Parent Book Category:"
 msgstr "पैरेंट बुक श्रेणी:"
 
-#: includes/wp_book_category.php:12
+#: includes/wp_book_category.php:25
 msgid "Edit Book Category"
 msgstr "पुस्तक श्रेणी संपादित करें"
 
-#: includes/wp_book_category.php:13
+#: includes/wp_book_category.php:26
 msgid "Update Book Category"
 msgstr "अपडेट बुक श्रेणी"
 
-#: includes/wp_book_category.php:14
+#: includes/wp_book_category.php:27
 msgid "Add New Book Category"
 msgstr "नई पुस्तक श्रेणी जोड़ें"
 
-#: includes/wp_book_category.php:15
+#: includes/wp_book_category.php:28
 msgid "New Book Category Name"
 msgstr "नई पुस्तक श्रेणी का नाम"
 
-#: includes/wp_book_cpt.php:5 includes/wp_book_cpt.php:7
+#: includes/wp_book_cpt.php:19 includes/wp_book_cpt.php:21
 msgid "Books"
 msgstr "पुस्तकों"
 
-#: includes/wp_book_cpt.php:6 includes/wp_book_cpt.php:8
-#: includes/wp_book_tag.php:7
+#: includes/wp_book_cpt.php:20 includes/wp_book_cpt.php:22
+#: includes/wp_book_tag.php:20
 msgid "Book"
 msgstr "पुस्तक"
 
-#: includes/wp_book_cpt.php:9
+#: includes/wp_book_cpt.php:23
 msgid "Add New"
 msgstr "नया जोड़ें"
 
-#: includes/wp_book_cpt.php:10 includes/wp_book_tag.php:15
+#: includes/wp_book_cpt.php:24 includes/wp_book_tag.php:28
 msgid "Add New Book"
 msgstr "नई पुस्तक जोड़ें"
 
-#: includes/wp_book_cpt.php:11
+#: includes/wp_book_cpt.php:25
 msgid "New Book"
 msgstr "नई पुस्तक"
 
-#: includes/wp_book_cpt.php:12 includes/wp_book_tag.php:13
+#: includes/wp_book_cpt.php:26 includes/wp_book_tag.php:26
 msgid "Edit Book"
 msgstr "पुस्तक श्रेणी संपादित करें"
 
-#: includes/wp_book_cpt.php:13
+#: includes/wp_book_cpt.php:27
 msgid "View Book"
 msgstr "पुस्तक देखें"
 
-#: includes/wp_book_cpt.php:14
+#: includes/wp_book_cpt.php:28
 msgid "All Books"
 msgstr "सभी पुस्तकें"
 
-#: includes/wp_book_cpt.php:15
+#: includes/wp_book_cpt.php:29
 msgid "Search Books"
 msgstr "पुस्तकें खोजें"
 
-#: includes/wp_book_cpt.php:16
+#: includes/wp_book_cpt.php:30
 msgid "Parent Books:"
 msgstr "अभिभावक पुस्तकें:"
 
-#: includes/wp_book_cpt.php:17
+#: includes/wp_book_cpt.php:31
 msgid "No books found."
 msgstr "कोई किताब नहीं मिली."
 
-#: includes/wp_book_cpt.php:18
+#: includes/wp_book_cpt.php:32
 msgid "No books found in Trash."
 msgstr "कूड़ेदान में कोई किताबें नहीं मिलीं."
 
-#: includes/wp_book_cpt.php:23
+#: includes/wp_book_cpt.php:37
 msgid "Description."
 msgstr "विवरण"
 
-#: includes/wp_book_cust_widget.php:17
+#: includes/wp_book_cust_widget.php:37
 msgid "WP Book Widget"
 msgstr "WP बुक विजेट"
 
-#: includes/wp_book_cust_widget.php:34
+#: includes/wp_book_cust_widget.php:63
 msgid "Text:"
 msgstr "टेक्स्ट"
 
-#: includes/wp_book_cust_widget.php:40
+#: includes/wp_book_cust_widget.php:70
 msgid "Select"
 msgstr "चुनते हैं"
 
-#: includes/wp_book_dash_cat_widget.php:7
+#: includes/wp_book_dash_cat_widget.php:20
 msgid "Top 5 book categories"
 msgstr "शीर्ष 5 पुस्तक श्रेणियां"
 
-#: includes/wp_book_metabox.php:4
+#: includes/wp_book_metabox.php:18
 msgid "About Book"
 msgstr "बुक के बारे में"
 
-#: includes/wp_book_tag.php:6 includes/wp_book_tag.php:21
+#: includes/wp_book_tag.php:19 includes/wp_book_tag.php:34
 msgid "Book Tag"
 msgstr "पुस्तक का टैग"
 
-#: includes/wp_book_tag.php:8
+#: includes/wp_book_tag.php:21
 msgid "Search Book Tag"
 msgstr "पुस्तक टैग खोजें"
 
-#: includes/wp_book_tag.php:9
+#: includes/wp_book_tag.php:22
 msgid "Popular Book Tag"
 msgstr "लोकप्रिय पुस्तक टैग"
 
-#: includes/wp_book_tag.php:10
+#: includes/wp_book_tag.php:23
 msgid "All Book Tag"
 msgstr "सभी पुस्तक टैग"
 
-#: includes/wp_book_tag.php:14
+#: includes/wp_book_tag.php:27
 msgid "Update Book"
 msgstr "अपडेट बुक"
 
-#: includes/wp_book_tag.php:16
+#: includes/wp_book_tag.php:29
 msgid "New Book Name"
 msgstr "नई किताब का नाम"
 
-#: includes/wp_book_tag.php:17
+#: includes/wp_book_tag.php:30
 msgid "Separate Book Tag with commas"
 msgstr "अल्पविराम से अलग पुस्तक टैग"
 
-#: includes/wp_book_tag.php:18
+#: includes/wp_book_tag.php:31
 msgid "Add or remove Book Tag"
 msgstr "बुक टैग जोड़ें या निकालें"
 
-#: includes/wp_book_tag.php:19
+#: includes/wp_book_tag.php:32
 msgid "Choose from the most used Book Tag"
 msgstr "सबसे अधिक उपयोग किए जाने वाले बुक टैग से चुनें"
 
-#: includes/wp_book_tag.php:20
+#: includes/wp_book_tag.php:33
 msgid "No Book Tag found."
 msgstr "कोई बुक टैग नहीं मिला।"

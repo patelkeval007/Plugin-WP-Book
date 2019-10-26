@@ -1,29 +1,43 @@
 <?php
 
+/**
+ * Register category for wp-book plugin.
+ *
+ * @author  keval patel <pk.patelkeval2110@gmail.com>
+ * @license GPL v2 or later
+ */
+
+
+/**
+ * Create book category.
+ *
+ * @return void.
+ */
 function wp_book_category_init()
 {
-    $labels = array(
-        'name'              => __('Book Category', 'wp_book_plugin'),
-        'singular_name'     => __('Book Category', 'wp_book_plugin'),
-        'search_items'      => __('Search Book Categories', 'wp_book_plugin'),
-        'all_items'         => __('All Book Categories', 'wp_book_plugin'),
-        'parent_item'       => __('Parent Book Category', 'wp_book_plugin'),
-        'parent_item_colon' => __('Parent Book Category:', 'wp_book_plugin'),
-        'edit_item'         => __('Edit Book Category', 'wp_book_plugin'),
-        'update_item'       => __('Update Book Category', 'wp_book_plugin'),
-        'add_new_item'      => __('Add New Book Category', 'wp_book_plugin'),
-        'new_item_name'     => __('New Book Category Name', 'wp_book_plugin'),
-        'menu_name'         => __('Book Category', 'wp_book_plugin'),
-    );
+    $labels = [
+        'name'              => __('Book Category', 'wp-book'),
+        'singular_name'     => __('Book Category', 'wp-book'),
+        'search_items'      => __('Search Book Categories', 'wp-book'),
+        'all_items'         => __('All Book Categories', 'wp-book'),
+        'parent_item'       => __('Parent Book Category', 'wp-book'),
+        'parent_item_colon' => __('Parent Book Category:', 'wp-book'),
+        'edit_item'         => __('Edit Book Category', 'wp-book'),
+        'update_item'       => __('Update Book Category', 'wp-book'),
+        'add_new_item'      => __('Add New Book Category', 'wp-book'),
+        'new_item_name'     => __('New Book Category Name', 'wp-book'),
+        'menu_name'         => __('Book Category', 'wp-book'),
+    ];
 
-    $args = array(
+    $args = [
         'hierarchical'      => true,
         'labels'            => $labels,
         'show_ui'           => true,
         'show_admin_column' => true,
         'query_var'         => true,
-        'rewrite'           => array('slug' => 'wp_book_category'),
-    );
+        'rewrite'           => ['slug' => 'wp_book_category'],
+    ];
 
-    register_taxonomy('wp_book_category', array('book'), $args);
-}
+    register_taxonomy('wp_book_category', ['book'], $args);
+
+}//end wp_book_category_init()
